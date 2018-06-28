@@ -1,0 +1,166 @@
+* {
+  font-family: 'Palatino', Arial, Helvetica, sans-serif;
+  font-weight: normal; }
+
+section.hero {
+  min-height: 275px;
+  background-image: url("/images/hero.jpg");
+  padding-top: 50px;
+  background-size: cover;
+  background-position: 50%; }
+  section.hero .heroBox {
+    max-width: 300px;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: rgba(74, 74, 74, 0.39);
+    color: #e6f1f5;
+    border-radius: 3px; }
+    section.hero .heroBox h1 {
+      margin-top: 0px;
+      font-family: 'Optima', Arial, Helvetica, sans-serif;
+      font-size: 30px;
+      margin-bottom: 10px; }
+    section.hero .heroBox h4 {
+      line-height: 20px;
+      margin-top: 10px; }
+    section.hero .heroBox .blueBtn {
+      background-color: #5FC0D5;
+      height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      padding-top: 13px;
+      font-size: 20px;
+      font-family: 'Optima', Arial, Helvetica, sans-serif; }
+      section.hero .heroBox .blueBtn:hover {
+        background-color: #6EA6E8; }
+
+section.banner101 {
+  min-height: 300px;
+  background-color: #E9F3F6;
+  text-align: center;
+  padding-top: 30px; }
+  section.banner101 .banner101Inner {
+    max-width: 350px;
+    margin-left: auto;
+    margin-right: auto; }
+    section.banner101 .banner101Inner h2 {
+      font-family: 'Optima', Arial, Helvetica, sans-serif;
+      font-weight: bold; }
+    section.banner101 .banner101Inner h4 {
+      font-weight: bold;
+      line-height: 20px; }
+    section.banner101 .banner101Inner p {
+      line-height: 20px; }
+    section.banner101 .banner101Inner .yellowBtn {
+      background-color: #FECB01;
+      height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      padding-top: 13px;
+      font-size: 20px;
+      font-family: 'Optima', Arial, Helvetica, sans-serif;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto; }
+      section.banner101 .banner101Inner .yellowBtn:hover {
+        background-color: #6EA6E8;
+        color: #e6f1f5; }
+
+section.bannerExtra {
+  min-height: 275px;
+  padding-top: 50px;
+  background-image: url("/images/accessories.jpg");
+  background-size: cover;
+  background-position: 50%; }
+  section.bannerExtra .extraBox {
+    max-width: 300px;
+    padding: 10px;
+    margin-left: auto;
+    margin-right: 10%;
+    background-color: rgba(74, 74, 74, 0.5);
+    color: #e6f1f5;
+    border-radius: 3px;
+    text-align: right; }
+    section.bannerExtra .extraBox h2 {
+      font-family: 'Optima', Arial, Helvetica, sans-serif;
+      margin-top: 0; }
+    section.bannerExtra .extraBox p {
+      line-height: 20px;
+      font-weight: 100; }
+    section.bannerExtra .extraBox .blueBtn {
+      background-color: #5FC0D5;
+      height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      padding-top: 13px;
+      font-size: 20px;
+      font-family: 'Optima', Arial, Helvetica, sans-serif; }
+      section.bannerExtra .extraBox .blueBtn:hover {
+        background-color: #6EA6E8; }
+
+section.bannerGuides {
+  min-height: 275px;
+  background-color: #E9F3F6;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px; }
+  section.bannerGuides h2 {
+    font-family: 'Optima', Arial, Helvetica, sans-serif;
+    max-width: 300px;
+    margin-right: auto;
+    margin-left: auto;
+    font-weight: bold; }
+  section.bannerGuides .guideTabs {
+    width: 90%;
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto; }
+    section.bannerGuides .guideTabs .guideTab {
+      width: 31%;
+      min-width: 200px;
+      display: inline-block;
+      padding: 1%; }
+      section.bannerGuides .guideTabs .guideTab .guideTabInner {
+        background-color: rgba(74, 74, 74, 0.11);
+        padding: 10px;
+        box-sizing: border-box; }
+
+section.bannerRepair {
+  min-height: 275px;
+  background-image: url("/images/repairBackground.jpg");
+  background-size: cover;
+  background-position: 50%;
+  color: #e6f1f5;
+  padding-top: 50px; }
+  section.bannerRepair .repairBox {
+    max-width: 300px;
+    padding: 10px;
+    margin-left: 10%;
+    background-color: rgba(0, 0, 0, 0.2); }
+    section.bannerRepair .repairBox h2 {
+      font-family: 'Optima', Arial, Helvetica, sans-serif; }
+    section.bannerRepair .repairBox .yellowBtn {
+      background-color: #FECB01;
+      height: 50px;
+      text-align: center;
+      box-sizing: border-box;
+      padding-top: 13px;
+      font-size: 20px;
+      font-family: 'Optima', Arial, Helvetica, sans-serif;
+      max-width: 300px;
+      margin-left: auto;
+      margin-right: auto;
+      color: black; }
+      section.bannerRepair .repairBox .yellowBtn:hover {
+        background-color: #6EA6E8;
+        color: #e6f1f5; }
+
+@media screen and (max-width: 700px) {
+  section.hero .heroBox,
+  section.bannerExtra .extraBox,
+  section.bannerRepair .repairBox {
+    margin-left: auto;
+    margin-right: auto; }
+
+  section.bannerGuides .guideTabs .guideTab {
+    width: 100%; } }

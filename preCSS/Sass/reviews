@@ -1,0 +1,107 @@
+* {
+  font-family: 'Palatino', Arial, Helvetica, sans-serif; }
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px; }
+  .container h1, .container h2, .container h3, .container h4 {
+    font-family: 'Optima', Arial, Helvetica, sans-serif;
+    line-height: 30px; }
+  .container p {
+    line-height: 30px;
+    font-size: 20px; }
+  .container .introText {
+    font-weight: 100;
+    font-size: 22px; }
+  .container .introBox {
+    background-color: #E9F3F6;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    padding: 5px; }
+    .container .introBox p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px; }
+    .container .introBox .introBoxLeft {
+      width: 49.5%;
+      display: inline-block;
+      box-sizing: border-box;
+      float: left;
+      padding: 0 20px; }
+      .container .introBox .introBoxLeft h6 {
+        font-size: 20px;
+        margin: 10px 0; }
+      .container .introBox .introBoxLeft p {
+        font-size: 16px;
+        font-weight: 300; }
+    .container .introBox .introBoxRight {
+      box-sizing: border-box;
+      width: 49.5%;
+      display: inline-block;
+      padding: 0 20px; }
+      .container .introBox .introBoxRight h6 {
+        font-size: 20px;
+        margin: 10px 0; }
+      .container .introBox .introBoxRight p {
+        font-size: 16px;
+        font-weight: 300; }
+      .container .introBox .introBoxRight .pictureBox {
+        width: 250px;
+        height: 200px;
+        background-color: lightgray;
+        margin: 20px auto; }
+  .container .leftAlign {
+    width: 50%;
+    display: inline-block;
+    margin-top: 20px; }
+  .container .rightAlign {
+    width: 49%;
+    display: inline-block;
+    float: right;
+    margin-top: 20px; }
+    .container .rightAlign.testImage {
+      height: 200px;
+      width: 200px;
+      background: lightgray;
+      margin: 20px auto 0; }
+    .container .rightAlign.sideAd {
+      background-color: #e9f3f6;
+      border: 1px solid #979797;
+      border-radius: 3px;
+      padding: 5px 20px;
+      box-sizing: border-box;
+      width: 47%; }
+  .container .blueBtn {
+    background-color: #5fc0d5;
+    height: 50px;
+    text-align: center;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+    box-sizing: border-box;
+    padding-top: 13px;
+    font-size: 20px;
+    font-family: Optima,Arial,Helvetica,sans-serif;
+    margin-bottom: 15px; }
+    .container .blueBtn:hover {
+      background-color: #6ea6e8; }
+
+@media screen and (max-width: 800px) {
+  .container .leftAlign {
+    width: 100%;
+    display: block; }
+  .container .rightAlign {
+    float: none;
+    width: 100%;
+    display: block; }
+    .container .rightAlign.sideAd {
+      width: 100%; }
+  .container .introBox .introBoxLeft {
+    float: none;
+    width: 100%; }
+  .container .introBox .introBoxRight {
+    width: 100%; } }

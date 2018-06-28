@@ -1,0 +1,79 @@
+* {
+  font-family: 'Palatino', Arial, Helvetica, sans-serif; }
+
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px; }
+  .container h1, .container h2, .container h3, .container h4 {
+    font-family: 'Optima', Arial, Helvetica, sans-serif;
+    line-height: 30px; }
+  .container p {
+    line-height: 30px;
+    font-size: 20px; }
+  .container .introText {
+    font-weight: 100;
+    font-size: 22px; }
+  .container .introBox {
+    background-color: #E9F3F6;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    padding: 5px; }
+    .container .introBox p {
+      margin-top: 10px;
+      font-weight: bold;
+      font-size: 18px; }
+    .container .introBox ul {
+      padding-left: 0; }
+      .container .introBox ul li {
+        width: 48%;
+        display: inline-block;
+        font-weight: bold;
+        padding-bottom: 10px;
+        font-size: 18px; }
+  .container .ctaBox {
+    background-color: #E9F3F6;
+    border: 1px solid #979797;
+    border-radius: 3px;
+    padding: 5px; }
+    .container .ctaBox p {
+      width: 60%;
+      font-size: 20px;
+      font-weight: bold;
+      display: inline-block;
+      text-align: center; }
+    .container .ctaBox .ctaBtnContainer {
+      width: 39%;
+      display: inline-block; }
+      .container .ctaBox .ctaBtnContainer .ctaBtn {
+        width: 250px;
+        text-align: center;
+        background-color: #FECB01;
+        height: 50px;
+        box-sizing: border-box;
+        padding-top: 15px;
+        font-size: 20px;
+        font-weight: bold;
+        margin-left: auto;
+        margin-right: auto; }
+        .container .ctaBox .ctaBtnContainer .ctaBtn:hover {
+          background-color: #6EA6E8;
+          color: white; }
+
+ol li {
+  margin-bottom: 15px; }
+
+h3 {
+  font-size: 20px; }
+
+@media screen and (max-width: 800px) {
+  .container .introBox ul li {
+    width: 100%; }
+
+  .container .ctaBox p {
+    width: 100%; }
+
+  .container .ctaBox .ctaBtnContainer {
+    width: 100%;
+    margin-bottom: 20px; } }
